@@ -19,9 +19,8 @@ This repository demonstrates a progression of RAG workflows, from the simplest t
 ## 🟡 Intermediate: Smarter Chunking with Chonkie
 - **Notebook:** [`llamaindex_chonkie.ipynb`](llamaindex_chonkie.ipynb)
 - **What you'll learn:**
-  - Semantic chunking for better retrieval
-  - Custom embedding models
-  - Integrating Chonkie with LlamaIndex
+    - Perform Semantic chunking through Chonkie 
+    - Integrating Chonkie with LlamaIndex
 
 ---
 
@@ -30,7 +29,7 @@ This repository demonstrates a progression of RAG workflows, from the simplest t
 - **What you'll learn:**
   - Parsing PDFs and extracting images/tables with Docling
   - Advanced metadata and provenance tracking
-  - End-to-end RAG with custom chunking, vector DB (Qdrant), and LLMs (Ollama)
+  - End-to-end LLamaIndex RAG with custom chunking (Docling), vector DB (Qdrant), and LLMs (Ollama)
 
 ---
 
