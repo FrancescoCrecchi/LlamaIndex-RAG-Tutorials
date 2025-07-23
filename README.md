@@ -7,6 +7,13 @@ This repository demonstrates a progression of RAG workflows, from the simplest t
 
 ---
 
+**Note:** Before running any notebook, you must download the sample documents. Run:
+ ```sh
+ bash download_docs.sh
+ ```
+ This will fetch the Docling technical report and DSPy paper into the `docs/` folder.
+
+
 ## 🟢 Easy: Quickstart with LlamaIndex
 - **Notebook:** [`llamaindex.ipynb`](llamaindex.ipynb)
 - **What you'll learn:**
@@ -46,7 +53,8 @@ This repository demonstrates a progression of RAG workflows, from the simplest t
 1. Clone the repo
 2. Install dependencies: `pip install -r requirements.txt`
 3. Start Qdrant (see `compose.yaml`)
-4. Open a notebook and start experimenting!
+4. **Download the sample docs:** `bash download_docs.sh`
+5. Open a notebook and start experimenting!
 
 ---
 
